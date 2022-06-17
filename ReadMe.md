@@ -1,7 +1,6 @@
 # Documentation
 
-Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible,
-AngularJS-powered HTML5 Markdown editor.
+This repo use for produce data with specific time scenario , with producer config that suitable for production environment
 
 Technology used for this repo :
 - Java 8
