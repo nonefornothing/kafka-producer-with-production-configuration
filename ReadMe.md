@@ -1,15 +1,12 @@
-### REFERENSI ###
-
+#  
 
 ## Producer Config
-https://newrelic.com/blog/best-practices/kafka-best-practices
-https://granulate.io/optimizing-kafka-performance/
-https://strimzi.io/blog/2020/10/15/producer-tuning/
-https://towardsdatascience.com/10-configs-to-make-your-kafka-producer-more-resilient-ec6903c63e3f
-
-https://www.confluent.io/blog/error-handling-patterns-in-kafka/
-
-Create topic automatically  if return null topic exception
+* https://newrelic.com/blog/best-practices/kafka-best-practices
+* https://granulate.io/optimizing-kafka-performance/
+* https://strimzi.io/blog/2020/10/15/producer-tuning/
+* https://towardsdatascience.com/10-configs-to-make-your-kafka-producer-more-resilient-ec6903c63e3f
+* https://www.confluent.io/blog/error-handling-patterns-in-kafka/
+* Create topic automatically  if return null topic exception ==> solved by set auto.create.topic configuration in broker level to "true"
 
 ##ERROR HANDLING WHILE PRODUCING DATA
 * https://serkansakinmaz.medium.com/error-handling-in-kafka-producer-edfc05bcbbbf
